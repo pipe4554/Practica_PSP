@@ -15,7 +15,7 @@ public class Main {
 		ct.decrementar();
 		
 		System.out.println(ct.getDinero());*/
-		
+		System.out.println("mensaje de ejemplo");
 		for (int i = 0; i < 10; i++) {
 			
 			new Client(ct).start();

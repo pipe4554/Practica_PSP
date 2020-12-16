@@ -7,7 +7,7 @@ public class Client extends Thread{
 	}
 	
 	public void run() {
-		
+		//while (true){
 			try {
 				sleep(1000);
 				cartera.incrementar();

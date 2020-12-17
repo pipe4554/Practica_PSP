@@ -2,11 +2,11 @@ package Practica1;
 
 public class ejemploThread extends Thread {
 	
-	private double num;
+	/*private double num;
 	
 	public ejemploThread(Double num) {
 		this.num = num;
-	}
+	}*/
 	
 	public void run() {
 		int randomnum = (int) Math.floor(Math.random()*5+1);
